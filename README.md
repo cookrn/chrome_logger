@@ -2,6 +2,8 @@
 
 A Ruby library that implements the [Chrome Logger](http://craig.is/writing/chrome-logger) specification as Rack middleware.
 
+See [the example](https://github.com/cookrn/chrome_logger/blob/master/example/config.ru).
+
 ## Installation
 
 Add this line to your application's Gemfile:
