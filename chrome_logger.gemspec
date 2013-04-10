@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = ChromeLogger::VERSION
   spec.authors       = ['Ryan Cook']
   spec.email         = ['cookrn@gmail.com']
-  spec.description   = %q{Ruby library that implements the ChromeLogger spec on Rack}
+  spec.description   = %q{Ruby library that implements the Chrome Logger spec as Rack middleware}
   spec.summary       = %Q{#{ spec.name } v#{ spec.version }}
-  spec.homepage      = 'https://github.com/cookrn/chrome_logger-ruby'
+  spec.homepage      = 'https://github.com/cookrn/chrome_logger'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
