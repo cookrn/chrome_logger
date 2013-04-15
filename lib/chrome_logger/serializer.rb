@@ -19,7 +19,7 @@ class ChromeLogger
     end
 
     def to_base64( utf8_encoded_json )
-      Base64.encode64 utf8_encoded_json
+      Base64.encode64(utf8_encoded_json).gsub("\n", "")
     end
 
     def to_json( data )
