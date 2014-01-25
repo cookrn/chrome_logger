@@ -1,5 +1,11 @@
 # ChromeLogger
 
+[![Gem Version](https://badge.fury.io/rb/chrome_logger.png)](http://badge.fury.io/rb/chrome_logger)
+[![Build Status](https://travis-ci.org/cookrn/chrome_logger.png)](https://travis-ci.org/cookrn/chrome_logger)
+[![Code Climate](https://codeclimate.com/github/cookrn/chrome_logger.png)](https://codeclimate.com/github/cookrn/chrome_logger)
+[![Coverage Status](https://coveralls.io/repos/cookrn/chrome_logger/badge.png)](https://coveralls.io/r/cookrn/chrome_logger)
+[![Dependency Status](https://gemnasium.com/cookrn/chrome_logger.png)](https://gemnasium.com/cookrn/chrome_logger)
+
 A Ruby library that implements the [Chrome Logger](http://craig.is/writing/chrome-logger) specification as Rack middleware.
 
 See [the example](https://github.com/cookrn/chrome_logger/blob/master/example/config.ru).

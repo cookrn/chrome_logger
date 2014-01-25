@@ -1,14 +1,10 @@
-begin
-  require 'pry'
-rescue LoadError
-end
+require 'coveralls'
+Coveralls.wear!
 
+require 'rubygems'
 gem 'minitest'
 
-%w(
-  autorun
-  hell
-  pride
-).each { | lib | require "minitest/#{ lib }" }
+require 'minitest/autorun'
+require 'minitest/pride'
 
 require 'chrome_logger'
