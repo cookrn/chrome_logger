@@ -1,6 +1,5 @@
 require 'chrome_logger/console'
 require 'chrome_logger/serializer'
-require 'chrome_logger/version'
 
 class ChromeLogger
   attr_accessor :app

@@ -1,8 +1,7 @@
 require "bundler/gem_tasks"
 require "rake/testtask"
 
-desc "Run the Tests"
-Rake::TestTask.new( :test ) do | t |
+Rake::TestTask.new :test do | t |
   t.libs    << [ "test" ]
   t.pattern = "test/**/*_test.rb"
   t.verbose = true
