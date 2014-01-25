@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class ChromeLogger::SerializerTest < MiniTest::Unit::TestCase
+class ChromeLogger::SerializerTest < Minitest::Test
   def test_something
     skip
   end

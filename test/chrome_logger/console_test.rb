@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class ChromeLogger::ConsoleTest < MiniTest::Unit::TestCase
+class ChromeLogger::ConsoleTest < Minitest::Test
   def test_something
     skip
   end
