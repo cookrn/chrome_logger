@@ -12,4 +12,16 @@ class ChromeLoggerTest < Minitest::Test
       ChromeLogger::DEFAULT_ENV_NAME,
       ChromeLogger.env_name
   end
+
+  def test_accepts_an_app_on_initialize
+    assert_raises ArgumentError do
+      ChromeLogger.new
+    end
+
+    app = Class.new.new
+
+    assert_equal \
+      app,
+      ChromeLogger.new( app ).app
+  end
 end
